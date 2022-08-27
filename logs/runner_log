@@ -1,0 +1,609 @@
+True
+0
+<torch.cuda.device object at 0x7efd2084d910>
+1
+NVIDIA GeForce RTX 3060
+begin-xlnet-xlnet-base-cased
+xlnet xlnet-base-cased 15
+<class 'str'>
+                                                text        labels
+0  thing moved pretty fast initially time really ...  [1, 1, 0, 0]
+1  think likely true close take account irreducib...  [1, 1, 1, 1]
+2  personally feel everything explained science t...  [1, 1, 1, 1]
+3  addition depression currently deal ocd add agr...  [0, 1, 1, 1]
+4  private message notification icon continually ...  [1, 1, 0, 1]
+<class 'list'>
+xlnet
+xlnet-base-cased
+Downloading: 100%|██████████████████████████████| 760/760 [00:00<00:00, 325kB/s]
+Downloading:  98%|██████████████████████████▍| 457M/467M [00:42<00:00, 11.7MB/sDownloading:  98%|██████████████████████████▍| 458M/467M [00:42<00:00, 11.7MB/sDownloading:  98%|██████████████████████████▌| 460M/467M [00:42<00:00, 11.7MB/sDownloading:  99%|██████████████████████████▋| 461M/467M [00:42<00:00, 11.8MB/sDownloading:  99%|██████████████████████████▋| 462M/467M [00:42<00:00, 11.7MB/sDownloading:  99%|██████████████████████████▊| 463M/467M [00:42<00:00, 11.8MB/sDownloading:  99%|██████████████████████████▊| 464M/467M [00:42<00:00, 11.7MB/sDownloading: 100%|██████████████████████████▉| 465M/467M [00:42<00:00, 11.7MB/sDownloading: 100%|██████████████████████████▉| 467M/467M [00:42<00:00, 11.7MB/sDownloading: 100%|███████████████████████████| 467M/467M [00:43<00:00, 10.9MB/s]
+Some weights of the model checkpoint at xlnet-base-cased were not used when initializing XLNetForMultiLabelSequenceClassification: ['lm_loss.weight', 'lm_loss.bias']
+- This IS expected if you are initializing XLNetForMultiLabelSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing XLNetForMultiLabelSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of XLNetForMultiLabelSequenceClassification were not initialized from the model checkpoint at xlnet-base-cased and are newly initialized: ['logits_proj.bias', 'sequence_summary.summary.bias', 'sequence_summary.summary.weight', 'logits_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 798k/798k [00:00<00:00, 1.73MB/s]
+Downloading: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.38M/1.38M [00:00<00:00, 2.35MB/s]
+Epochs 0/15. Running Loss:    0.4212: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [16:23<00:00,  2.64it/s]Epochs 1/15. Running Loss:    0.0969: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [16:18<00:00,  2.66it/s]
+Epochs 2/15. Running Loss:    0.0309: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [16:18<00:00,  2.66it/s]
+Epochs 3/15. Running Loss:    0.2118: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [16:18<00:00,  2.66it/s]
+Epochs 4/15. Running Loss:    0.7455: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [16:46<00:00,  2.58it/s]
+Epochs 5/15. Running Loss:    0.0221: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [17:06<00:00,  2.53it/s]
+Epochs 6/15. Running Loss:    0.0605: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [17:13<00:00,  2.52it/s]
+Epochs 7/15. Running Loss:    0.2196: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [16:17<00:00,  2.66it/s]
+Epochs 8/15. Running Loss:    0.0064: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [16:53<00:00,  2.56it/s]
+Epochs 9/15. Running Loss:    0.0049: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [17:08<00:00,  2.53it/s]
+Epochs 10/15. Running Loss:    0.0053: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [16:49<00:00,  2.57it/s]
+Epochs 11/15. Running Loss:    0.0056: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [17:00<00:00,  2.55it/s]
+Epochs 12/15. Running Loss:    0.0030: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [16:31<00:00,  2.62it/s]
+Epochs 13/15. Running Loss:    0.0212: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [16:30<00:00,  2.63it/s]
+Epochs 14/15. Running Loss:    0.0019: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [17:02<00:00,  2.54it/s]
+Epoch 15 of 15: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [4:10:39<00:00, 1002.66s/it]
+Running Evaluation: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:50<00:00,  5.83it/s]
+model outputs
+[[0.99820101 0.99896145 0.00178229 0.99637163]
+ [0.99722254 0.99765575 0.00178016 0.00437052]
+ [0.99468464 0.99777228 0.99773574 0.00510054]
+ ...
+ [0.99692059 0.99750805 0.00200749 0.00466887]
+ [0.99728525 0.99907553 0.9960587  0.99737883]
+ [0.99734277 0.99896681 0.99737215 0.99737823]]
+Y_predict [[1. 1. 0. 1.]
+ [1. 1. 0. 0.]
+ [1. 1. 1. 0.]
+ ...
+ [1. 1. 0. 0.]
+ [1. 1. 1. 1.]
+ [1. 1. 1. 1.]]
+acc:0.6777142857142857
+end-xlnet-xlnet-base-cased
+True
+0
+<torch.cuda.device object at 0x7f4533218910>
+1
+NVIDIA GeForce RTX 3060
+begin-bert-bert-base-cased
+bert bert-base-cased 15
+<class 'str'>
+                                                text        labels
+0  thing moved pretty fast initially time really ...  [1, 1, 0, 0]
+1  think likely true close take account irreducib...  [1, 1, 1, 1]
+2  personally feel everything explained science t...  [1, 1, 1, 1]
+3  addition depression currently deal ocd add agr...  [0, 1, 1, 1]
+4  private message notification icon continually ...  [1, 1, 0, 1]
+<class 'list'>
+bert
+bert-base-cased
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 570/570 [00:00<00:00, 428kB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 436M/436M [01:09<00:00, 6.28MB/s]
+Some weights of the model checkpoint at bert-base-cased were not used when initializing BertForMultiLabelSequenceClassification: ['cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertForMultiLabelSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMultiLabelSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForMultiLabelSequenceClassification were not initialized from the model checkpoint at bert-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 213k/213k [00:00<00:00, 611kB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 29.0/29.0 [00:00<00:00, 48.6kB/s]
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 436k/436k [00:00<00:00, 540kB/s]
+Epochs 0/15. Running Loss:    0.0541: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:11<00:00,  5.29it/s]
+Epochs 1/15. Running Loss:    0.5100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:09<00:00,  5.31it/s]
+Epochs 2/15. Running Loss:    0.5507: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:02<00:00,  5.39it/s]
+Epochs 3/15. Running Loss:    0.3594: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:12<00:00,  5.28it/s]
+Epochs 4/15. Running Loss:    0.4731: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:14<00:00,  5.26it/s]
+Epochs 5/15. Running Loss:    0.0087: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:12<00:00,  5.28it/s]
+Epochs 6/15. Running Loss:    0.0323: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:15<00:00,  5.25it/s]
+Epochs 7/15. Running Loss:    0.2869: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:02<00:00,  5.39it/s]
+Epochs 8/15. Running Loss:    0.0023: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:32<00:00,  5.75it/s]
+Epochs 9/15. Running Loss:    0.4755: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:27<00:00,  5.81it/s]
+Epochs 10/15. Running Loss:    0.0019: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:26<00:00,  5.82it/s]
+Epochs 11/15. Running Loss:    0.0012: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:26<00:00,  5.83it/s]
+Epochs 12/15. Running Loss:    0.0956: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:25<00:00,  5.83it/s]
+Epochs 13/15. Running Loss:    0.0028: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:25<00:00,  5.84it/s]
+Epochs 14/15. Running Loss:    0.0007: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:40<00:00,  5.64it/s]
+Epoch 15 of 15: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [1:57:44<00:00, 470.96s/it]
+Running Evaluation: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:13<00:00, 20.92it/s]
+model outputs
+[[9.99604404e-01 9.99799430e-01 8.87566924e-01 9.99603093e-01]
+ [9.99421597e-01 9.99570668e-01 5.26094576e-04 7.71196268e-04]
+ [9.99341071e-01 9.99506831e-01 9.99727547e-01 5.80052729e-04]
+ ...
+ [9.94417906e-01 9.99066055e-01 2.06039622e-04 6.91066147e-04]
+ [9.99518156e-01 9.99643445e-01 9.99737680e-01 9.99134719e-01]
+ [9.99466598e-01 9.99587119e-01 9.99721706e-01 9.99301672e-01]]
+Y_predict [[1. 1. 1. 1.]
+ [1. 1. 0. 0.]
+ [1. 1. 1. 0.]
+ ...
+ [1. 1. 0. 0.]
+ [1. 1. 1. 1.]
+ [1. 1. 1. 1.]]
+acc:0.6205714285714286
+end-bert-bert-base-cased
+True
+0
+<torch.cuda.device object at 0x7f3d9c740910>
+1
+NVIDIA GeForce RTX 3060
+begin-bert-bert-base-multilingual-cased
+bert bert-base-multilingual-cased 15
+<class 'str'>
+                                                text        labels
+0  thing moved pretty fast initially time really ...  [1, 1, 0, 0]
+1  think likely true close take account irreducib...  [1, 1, 1, 1]
+2  personally feel everything explained science t...  [1, 1, 1, 1]
+3  addition depression currently deal ocd add agr...  [0, 1, 1, 1]
+4  private message notification icon continually ...  [1, 1, 0, 1]
+<class 'list'>
+bert
+bert-base-multilingual-cased
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 625/625 [00:00<00:00, 296kB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 714M/714M [03:01<00:00, 3.94MB/s]
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing BertForMultiLabelSequenceClassification: ['cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertForMultiLabelSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMultiLabelSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForMultiLabelSequenceClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 996k/996k [00:00<00:00, 1.08MB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 29.0/29.0 [00:00<00:00, 13.7kB/s]
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.96M/1.96M [00:02<00:00, 831kB/s]
+Epochs 0/15. Running Loss:    0.3813: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:46<00:00,  4.94it/s]
+Epochs 1/15. Running Loss:    0.2234: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:46<00:00,  4.94it/s]
+Epochs 2/15. Running Loss:    0.6461: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:46<00:00,  4.94it/s]
+Epochs 3/15. Running Loss:    0.2026: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:46<00:00,  4.94it/s]
+Epochs 4/15. Running Loss:    0.3161: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:45<00:00,  4.94it/s]
+Epochs 5/15. Running Loss:    0.2952: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:45<00:00,  4.95it/s]
+Epochs 6/15. Running Loss:    1.0843: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:45<00:00,  4.95it/s]
+Epochs 7/15. Running Loss:    0.4108: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:45<00:00,  4.95it/s]
+Epochs 8/15. Running Loss:    0.0218: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:44<00:00,  4.96it/s]
+Epochs 9/15. Running Loss:    0.0787: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:43<00:00,  4.97it/s]
+Epochs 10/15. Running Loss:    0.0622: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:42<00:00,  4.97it/s]
+Epochs 11/15. Running Loss:    0.1798: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:41<00:00,  4.98it/s]
+Epochs 12/15. Running Loss:    0.0068: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:40<00:00,  4.99it/s]
+Epochs 13/15. Running Loss:    0.0089: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:47<00:00,  4.93it/s]
+Epochs 14/15. Running Loss:    0.1022: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:49<00:00,  4.91it/s]
+Epoch 15 of 15: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [2:11:17<00:00, 525.18s/it]
+Running Evaluation: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:13<00:00, 20.95it/s]
+model outputs
+[[0.99617141 0.99856085 0.00580265 0.98837018]
+ [0.98292464 0.98652482 0.00441223 0.69680738]
+ [0.99468249 0.99662042 0.9977113  0.00686618]
+ ...
+ [0.99473792 0.99718082 0.00419702 0.00960187]
+ [0.96171081 0.99862647 0.9971506  0.99462295]
+ [0.99507153 0.99755669 0.99692684 0.99340433]]
+Y_predict [[1. 1. 0. 1.]
+ [1. 1. 0. 1.]
+ [1. 1. 1. 0.]
+ ...
+ [1. 1. 0. 0.]
+ [1. 1. 1. 1.]
+ [1. 1. 1. 1.]]
+acc:0.6137142857142858
+end-bert-bert-base-multilingual-cased
+True
+0
+<torch.cuda.device object at 0x7ff0b571d910>
+1
+NVIDIA GeForce RTX 3060
+begin-distilbert-distilbert-base-uncased
+distilbert distilbert-base-uncased 15
+<class 'str'>
+                                                text        labels
+0  thing moved pretty fast initially time really ...  [1, 1, 0, 0]
+1  think likely true close take account irreducib...  [1, 1, 1, 1]
+2  personally feel everything explained science t...  [1, 1, 1, 1]
+3  addition depression currently deal ocd add agr...  [0, 1, 1, 1]
+4  private message notification icon continually ...  [1, 1, 0, 1]
+<class 'list'>
+distilbert
+distilbert-base-uncased
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 483/483 [00:00<00:00, 882kB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 268M/268M [00:44<00:00, 5.98MB/s]
+Some weights of the model checkpoint at distilbert-base-uncased were not used when initializing DistilBertForMultiLabelSequenceClassification: ['vocab_layer_norm.weight', 'vocab_transform.bias', 'vocab_layer_norm.bias', 'vocab_projector.bias', 'vocab_transform.weight', 'vocab_projector.weight']
+- This IS expected if you are initializing DistilBertForMultiLabelSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DistilBertForMultiLabelSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of DistilBertForMultiLabelSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['pre_classifier.bias', 'classifier.bias', 'classifier.weight', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 232k/232k [00:00<00:00, 678kB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28.0/28.0 [00:00<00:00, 50.7kB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 466k/466k [00:00<00:00, 1.03MB/s]
+Epochs 0/15. Running Loss:    0.1228: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:10<00:00, 10.39it/s]
+Epochs 1/15. Running Loss:    0.3293: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:13<00:00, 10.28it/s]
+Epochs 2/15. Running Loss:    0.0146: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:11<00:00, 10.33it/s]
+Epochs 3/15. Running Loss:    0.0055: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:11<00:00, 10.36it/s]
+Epochs 4/15. Running Loss:    0.0017: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:10<00:00, 10.39it/s]
+Epochs 5/15. Running Loss:    0.6619: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:09<00:00, 10.41it/s]
+Epochs 6/15. Running Loss:    0.1003: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:09<00:00, 10.42it/s]
+Epochs 7/15. Running Loss:    0.0008: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:11<00:00, 10.33it/s]
+Epochs 8/15. Running Loss:    0.0003: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:06<00:00, 10.56it/s]
+Epochs 9/15. Running Loss:    0.0109: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:03<00:00, 10.67it/s]
+Epochs 10/15. Running Loss:    0.0002: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:03<00:00, 10.68it/s]
+Epochs 11/15. Running Loss:    0.0001: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:03<00:00, 10.69it/s]
+Epochs 12/15. Running Loss:    0.0001: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:02<00:00, 10.71it/s]
+Epochs 13/15. Running Loss:    0.0000: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:02<00:00, 10.71it/s]
+Epochs 14/15. Running Loss:    0.0000: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:02<00:00, 10.72it/s]
+Epoch 15 of 15: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [1:01:52<00:00, 247.49s/it]
+Running Evaluation: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:06<00:00, 44.08it/s]
+model outputs
+[[9.99996901e-01 9.99999642e-01 9.99843359e-01 9.99992967e-01]
+ [9.99987125e-01 9.99998927e-01 9.59446425e-06 8.50787364e-06]
+ [9.99974728e-01 9.99995828e-01 9.99995828e-01 1.03181674e-05]
+ ...
+ [9.99951720e-01 9.99997735e-01 1.38696805e-06 8.86945145e-06]
+ [9.99961853e-01 9.99991536e-01 9.99720633e-01 6.75541596e-05]
+ [9.99992371e-01 9.99998927e-01 9.99986529e-01 9.99990582e-01]]
+Y_predict [[1. 1. 1. 1.]
+ [1. 1. 0. 0.]
+ [1. 1. 1. 0.]
+ ...
+ [1. 1. 0. 0.]
+ [1. 1. 1. 0.]
+ [1. 1. 1. 1.]]
+acc:0.6731428571428572
+end-distilbert-distilbert-base-uncased
+True
+0
+<torch.cuda.device object at 0x7f55440c8910>
+1
+NVIDIA GeForce RTX 3060
+begin-distilbert-distilbert-base-multilingual-cased
+distilbert distilbert-base-multilingual-cased 15
+<class 'str'>
+                                                text        labels
+0  thing moved pretty fast initially time really ...  [1, 1, 0, 0]
+1  think likely true close take account irreducib...  [1, 1, 1, 1]
+2  personally feel everything explained science t...  [1, 1, 1, 1]
+3  addition depression currently deal ocd add agr...  [0, 1, 1, 1]
+4  private message notification icon continually ...  [1, 1, 0, 1]
+<class 'list'>
+distilbert
+distilbert-base-multilingual-cased
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 466/466 [00:00<00:00, 246kB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 542M/542M [01:00<00:00, 8.90MB/s]
+Some weights of the model checkpoint at distilbert-base-multilingual-cased were not used when initializing DistilBertForMultiLabelSequenceClassification: ['vocab_transform.weight', 'vocab_transform.bias', 'vocab_projector.bias', 'vocab_layer_norm.weight', 'vocab_layer_norm.bias', 'vocab_projector.weight']
+- This IS expected if you are initializing DistilBertForMultiLabelSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DistilBertForMultiLabelSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of DistilBertForMultiLabelSequenceClassification were not initialized from the model checkpoint at distilbert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'pre_classifier.bias', 'classifier.weight', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 996k/996k [00:00<00:00, 1.45MB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 29.0/29.0 [00:00<00:00, 13.1kB/s]
+Downloading: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.96M/1.96M [00:01<00:00, 1.69MB/s]
+Epochs 0/15. Running Loss:    0.4436: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [05:05<00:00,  8.52it/s]
+Epochs 1/15. Running Loss:    0.1133: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [05:04<00:00,  8.53it/s]
+Epochs 2/15. Running Loss:    0.3261: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [05:04<00:00,  8.54it/s]
+Epochs 3/15. Running Loss:    0.0717: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [05:03<00:00,  8.55it/s]
+Epochs 4/15. Running Loss:    0.3481: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [05:03<00:00,  8.57it/s]
+Epochs 5/15. Running Loss:    0.0180: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [05:02<00:00,  8.58it/s]
+Epochs 6/15. Running Loss:    0.0024: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [05:02<00:00,  8.59it/s]
+Epochs 7/15. Running Loss:    0.4918: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [05:01<00:00,  8.61it/s]
+Epochs 8/15. Running Loss:    0.0153: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [05:00<00:00,  8.64it/s]
+Epochs 9/15. Running Loss:    0.0010: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:59<00:00,  8.67it/s]
+Epochs 10/15. Running Loss:    0.0009: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:59<00:00,  8.69it/s]
+Epochs 11/15. Running Loss:    0.1275: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:58<00:00,  8.71it/s]
+Epochs 12/15. Running Loss:    0.0005: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:58<00:00,  8.72it/s]
+Epochs 13/15. Running Loss:    0.0007: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:57<00:00,  8.74it/s]
+Epochs 14/15. Running Loss:    0.0002: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:57<00:00,  8.75it/s]
+Epoch 15 of 15: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [1:15:20<00:00, 301.37s/it]
+Running Evaluation: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:06<00:00, 44.11it/s]
+model outputs
+[[9.99957323e-01 9.99895096e-01 7.84261501e-05 9.99532342e-01]
+ [9.99925852e-01 9.99775231e-01 3.52167008e-05 9.99196231e-01]
+ [9.99868751e-01 9.99976397e-01 9.99968052e-01 2.25183889e-04]
+ ...
+ [9.99892354e-01 9.99939442e-01 6.65129919e-05 6.84432511e-04]
+ [9.92775559e-01 9.99991894e-01 9.99813735e-01 9.99422073e-01]
+ [9.99943137e-01 9.99940515e-01 9.99953985e-01 9.99955177e-01]]
+Y_predict [[1. 1. 0. 1.]
+ [1. 1. 0. 1.]
+ [1. 1. 1. 0.]
+ ...
+ [1. 1. 0. 0.]
+ [1. 1. 1. 1.]
+ [1. 1. 1. 1.]]
+acc:0.6365714285714286
+end-distilbert-distilbert-base-multilingual-cased
+True
+0
+<torch.cuda.device object at 0x7f7ff6ff9910>
+1
+NVIDIA GeForce RTX 3060
+begin-roberta-distilroberta-base
+roberta distilroberta-base 15
+<class 'str'>
+                                                text        labels
+0  thing moved pretty fast initially time really ...  [1, 1, 0, 0]
+1  think likely true close take account irreducib...  [1, 1, 1, 1]
+2  personally feel everything explained science t...  [1, 1, 1, 1]
+3  addition depression currently deal ocd add agr...  [0, 1, 1, 1]
+4  private message notification icon continually ...  [1, 1, 0, 1]
+<class 'list'>
+roberta
+distilroberta-base
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 480/480 [00:00<00:00, 220kB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 331M/331M [00:29<00:00, 11.3MB/s]
+Some weights of the model checkpoint at distilroberta-base were not used when initializing RobertaForMultiLabelSequenceClassification: ['lm_head.layer_norm.weight', 'lm_head.layer_norm.bias', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.weight', 'lm_head.dense.bias']
+- This IS expected if you are initializing RobertaForMultiLabelSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultiLabelSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultiLabelSequenceClassification were not initialized from the model checkpoint at distilroberta-base and are newly initialized: ['classifier.out_proj.weight', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 899k/899k [00:00<00:00, 1.88MB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 456k/456k [00:00<00:00, 1.06MB/s]
+Downloading: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.36M/1.36M [00:00<00:00, 2.36MB/s]
+Epochs 0/15. Running Loss:    0.3407: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:24<00:00,  9.83it/s]
+Epochs 1/15. Running Loss:    0.8874: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:22<00:00,  9.91it/s]
+Epochs 2/15. Running Loss:    0.2655: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:21<00:00,  9.94it/s]
+Epochs 3/15. Running Loss:    0.5575: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:20<00:00,  9.97it/s]
+Epochs 4/15. Running Loss:    0.3661: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:20<00:00,  9.98it/s]
+Epochs 5/15. Running Loss:    0.2063: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:20<00:00,  9.99it/s]
+Epochs 6/15. Running Loss:    0.3621: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:20<00:00,  9.99it/s]
+Epochs 7/15. Running Loss:    0.0068: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:20<00:00, 10.00it/s]
+Epochs 8/15. Running Loss:    0.2145: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:20<00:00, 10.00it/s]
+Epochs 9/15. Running Loss:    0.0026: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:19<00:00, 10.00it/s]
+Epochs 10/15. Running Loss:    0.0016: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:19<00:00, 10.01it/s]
+Epochs 11/15. Running Loss:    0.0058: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:19<00:00, 10.02it/s]
+Epochs 12/15. Running Loss:    0.0040: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:19<00:00, 10.03it/s]
+Epochs 13/15. Running Loss:    0.0013: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:19<00:00, 10.03it/s]
+Epochs 14/15. Running Loss:    0.0011: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [04:18<00:00, 10.04it/s]
+Epoch 15 of 15: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [1:05:06<00:00, 260.45s/it]
+Running Evaluation: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:07<00:00, 40.78it/s]
+model outputs
+[[9.99610960e-01 9.99691248e-01 6.86116226e-04 9.98342156e-01]
+ [9.99543369e-01 9.99620795e-01 5.31104277e-04 8.34418952e-01]
+ [9.96852219e-01 9.99290347e-01 9.99633312e-01 9.52590490e-04]
+ ...
+ [9.98749256e-01 9.99498725e-01 7.11913570e-04 1.53301843e-03]
+ [9.99479592e-01 9.99604285e-01 9.98861670e-01 9.97713685e-01]
+ [9.99274075e-01 9.99413252e-01 9.99329805e-01 9.98843551e-01]]
+Y_predict [[1. 1. 0. 1.]
+ [1. 1. 0. 1.]
+ [1. 1. 1. 0.]
+ ...
+ [1. 1. 0. 0.]
+ [1. 1. 1. 1.]
+ [1. 1. 1. 1.]]
+acc:0.6902857142857143
+end-roberta-distilroberta-base
+True
+0
+<torch.cuda.device object at 0x7f91903bf910>
+1
+NVIDIA GeForce RTX 3060
+begin-roberta-roberta-base
+roberta roberta-base 15
+<class 'str'>
+                                                text        labels
+0  thing moved pretty fast initially time really ...  [1, 1, 0, 0]
+1  think likely true close take account irreducib...  [1, 1, 1, 1]
+2  personally feel everything explained science t...  [1, 1, 1, 1]
+3  addition depression currently deal ocd add agr...  [0, 1, 1, 1]
+4  private message notification icon continually ...  [1, 1, 0, 1]
+<class 'list'>
+roberta
+roberta-base
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 481/481 [00:00<00:00, 685kB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 501M/501M [00:44<00:00, 11.4MB/s]
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForMultiLabelSequenceClassification: ['lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.dense.weight', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaForMultiLabelSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultiLabelSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultiLabelSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 899k/899k [00:00<00:00, 1.94MB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 456k/456k [00:00<00:00, 1.07MB/s]
+Downloading: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.36M/1.36M [00:00<00:00, 2.00MB/s]
+Epochs 0/15. Running Loss:    0.5597: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:07<00:00,  5.33it/s]
+Epochs 1/15. Running Loss:    0.8676: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:05<00:00,  5.35it/s]
+Epochs 2/15. Running Loss:    0.5325: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:05<00:00,  5.36it/s]
+Epochs 3/15. Running Loss:    0.5372: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:05<00:00,  5.36it/s]
+Epochs 4/15. Running Loss:    0.5401: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:04<00:00,  5.36it/s]
+Epochs 5/15. Running Loss:    0.4953: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:05<00:00,  5.36it/s]
+Epochs 6/15. Running Loss:    0.4815: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:04<00:00,  5.36it/s]
+Epochs 7/15. Running Loss:    0.5501: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:05<00:00,  5.36it/s]
+Epochs 8/15. Running Loss:    0.5980: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:04<00:00,  5.37it/s]
+Epochs 9/15. Running Loss:    0.5934: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:04<00:00,  5.37it/s]
+Epochs 10/15. Running Loss:    0.5529: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:04<00:00,  5.36it/s]
+Epochs 11/15. Running Loss:    0.6625: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:04<00:00,  5.37it/s]
+Epochs 12/15. Running Loss:    0.4475: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:04<00:00,  5.37it/s]
+Epochs 13/15. Running Loss:    0.5152: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:04<00:00,  5.37it/s]
+Epochs 14/15. Running Loss:    0.6919: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [08:04<00:00,  5.37it/s]
+Epoch 15 of 15: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [2:01:16<00:00, 485.09s/it]
+Running Evaluation: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:14<00:00, 20.75it/s]
+model outputs
+[[0.78791237 0.88192242 0.45977286 0.39349592]
+ [0.78791279 0.8819223  0.45977658 0.3934975 ]
+ [0.78791809 0.88192397 0.45978227 0.39348692]
+ ...
+ [0.78791565 0.88192493 0.45978409 0.39349088]
+ [0.78791773 0.88192391 0.45978183 0.393489  ]
+ [0.78791732 0.88192296 0.45977265 0.39348671]]
+Y_predict [[1. 1. 0. 0.]
+ [1. 1. 0. 0.]
+ [1. 1. 0. 0.]
+ ...
+ [1. 1. 0. 0.]
+ [1. 1. 0. 0.]
+ [1. 1. 0. 0.]]
+acc:0.2102857142857143
+end-roberta-roberta-base
+True
+0
+<torch.cuda.device object at 0x7fbb14360910>
+1
+NVIDIA GeForce RTX 3060
+begin-xlmroberta-xlm-roberta-base
+xlmroberta xlm-roberta-base 15
+<class 'str'>
+                                                text        labels
+0  thing moved pretty fast initially time really ...  [1, 1, 0, 0]
+1  think likely true close take account irreducib...  [1, 1, 1, 1]
+2  personally feel everything explained science t...  [1, 1, 1, 1]
+3  addition depression currently deal ocd add agr...  [0, 1, 1, 1]
+4  private message notification icon continually ...  [1, 1, 0, 1]
+<class 'list'>
+xlmroberta
+xlm-roberta-base
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:00<00:00, 240kB/s]
+Downloading: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.12G/1.12G [01:37<00:00, 11.5MB/s]
+Some weights of the model checkpoint at xlm-roberta-base were not used when initializing XLMRobertaForMultiLabelSequenceClassification: ['lm_head.dense.bias', 'lm_head.bias', 'lm_head.layer_norm.bias', 'lm_head.dense.weight', 'lm_head.layer_norm.weight', 'lm_head.decoder.weight']
+- This IS expected if you are initializing XLMRobertaForMultiLabelSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing XLMRobertaForMultiLabelSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of XLMRobertaForMultiLabelSequenceClassification were not initialized from the model checkpoint at xlm-roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.out_proj.weight', 'classifier.out_proj.bias', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Downloading: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5.07M/5.07M [00:00<00:00, 5.12MB/s]
+Downloading: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9.10M/9.10M [00:01<00:00, 6.67MB/s]
+Epochs 0/15. Running Loss:    0.4623: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:15<00:00,  4.23it/s]
+Epochs 1/15. Running Loss:    0.7064: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:14<00:00,  4.23it/s]
+Epochs 2/15. Running Loss:    0.5278: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:14<00:00,  4.23it/s]
+Epochs 3/15. Running Loss:    0.8556: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:14<00:00,  4.23it/s]
+Epochs 4/15. Running Loss:    0.6271: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:14<00:00,  4.23it/s]
+Epochs 5/15. Running Loss:    0.5658: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:14<00:00,  4.23it/s]
+Epochs 6/15. Running Loss:    0.7166: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:13<00:00,  4.23it/s]
+Epochs 7/15. Running Loss:    0.7041: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:14<00:00,  4.23it/s]
+Epochs 8/15. Running Loss:    0.4281: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:14<00:00,  4.23it/s]
+Epochs 9/15. Running Loss:    0.4564: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:14<00:00,  4.23it/s]
+Epochs 10/15. Running Loss:    0.5343: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:14<00:00,  4.23it/s]
+Epochs 11/15. Running Loss:    0.6095: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:14<00:00,  4.23it/s]
+Epochs 12/15. Running Loss:    0.6178: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:14<00:00,  4.23it/s]
+Epochs 13/15. Running Loss:    0.5088: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:14<00:00,  4.23it/s]
+Epochs 14/15. Running Loss:    0.4264: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [10:14<00:00,  4.23it/s]
+Epoch 15 of 15: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [2:33:37<00:00, 614.50s/it]
+Running Evaluation: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:14<00:00, 20.67it/s]
+model outputs
+[[0.79165858 0.89045399 0.45671237 0.3872855 ]
+ [0.79165727 0.89045328 0.45670879 0.38728291]
+ [0.79165918 0.89045292 0.4567098  0.38728267]
+ ...
+ [0.79166067 0.89045399 0.45670831 0.38728845]
+ [0.79165781 0.89045388 0.45671108 0.38728487]
+ [0.79165798 0.89045405 0.45670611 0.38728669]]
+Y_predict [[1. 1. 0. 0.]
+ [1. 1. 0. 0.]
+ [1. 1. 0. 0.]
+ ...
+ [1. 1. 0. 0.]
+ [1. 1. 0. 0.]
+ [1. 1. 0. 0.]]
+acc:0.2102857142857143
+end-xlmroberta-xlm-roberta-base
+True
+0
+<torch.cuda.device object at 0x7fc210a58910>
+1
+NVIDIA GeForce RTX 3060
+begin-electra-google/electra-base-discriminator
+electra google/electra-base-discriminator 15
+<class 'str'>
+                                                text        labels
+0  thing moved pretty fast initially time really ...  [1, 1, 0, 0]
+1  think likely true close take account irreducib...  [1, 1, 1, 1]
+2  personally feel everything explained science t...  [1, 1, 1, 1]
+3  addition depression currently deal ocd add agr...  [0, 1, 1, 1]
+4  private message notification icon continually ...  [1, 1, 0, 1]
+<class 'list'>
+electra
+google/electra-base-discriminator
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 666/666 [00:00<00:00, 317kB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 440M/440M [00:38<00:00, 11.4MB/s]
+Some weights of the model checkpoint at google/electra-base-discriminator were not used when initializing ElectraForMultiLabelSequenceClassification: ['discriminator_predictions.dense.weight', 'discriminator_predictions.dense_prediction.bias', 'discriminator_predictions.dense_prediction.weight', 'discriminator_predictions.dense.bias']
+- This IS expected if you are initializing ElectraForMultiLabelSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing ElectraForMultiLabelSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of ElectraForMultiLabelSequenceClassification were not initialized from the model checkpoint at google/electra-base-discriminator and are newly initialized: ['pooler.dense.bias', 'classifier.weight', 'pooler.dense.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 232k/232k [00:00<00:00, 714kB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 27.0/27.0 [00:00<00:00, 13.2kB/s]
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 466k/466k [00:00<00:00, 855kB/s]
+Epochs 0/15. Running Loss:    0.6265: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:56<00:00,  5.46it/s]
+Epochs 1/15. Running Loss:    0.1922: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:55<00:00,  5.46it/s]
+Epochs 2/15. Running Loss:    0.4619: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:55<00:00,  5.47it/s]
+Epochs 3/15. Running Loss:    0.0125: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:54<00:00,  5.48it/s]
+Epochs 4/15. Running Loss:    1.1196: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:53<00:00,  5.49it/s]
+Epochs 5/15. Running Loss:    0.4653: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:53<00:00,  5.49it/s]
+Epochs 6/15. Running Loss:    0.4408: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:52<00:00,  5.50it/s]
+Epochs 7/15. Running Loss:    0.3290: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:51<00:00,  5.51it/s]
+Epochs 8/15. Running Loss:    0.0047: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:51<00:00,  5.52it/s]
+Epochs 9/15. Running Loss:    0.1139: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:50<00:00,  5.53it/s]
+Epochs 10/15. Running Loss:    0.0025: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:49<00:00,  5.53it/s]
+Epochs 11/15. Running Loss:    0.6070: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:49<00:00,  5.54it/s]
+Epochs 12/15. Running Loss:    0.0014: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:48<00:00,  5.55it/s]
+Epochs 13/15. Running Loss:    0.0238: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:48<00:00,  5.55it/s]
+Epochs 14/15. Running Loss:    0.0015: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [07:48<00:00,  5.55it/s]
+Epoch 15 of 15: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [1:58:01<00:00, 472.10s/it]
+Running Evaluation: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:13<00:00, 20.94it/s]
+model outputs
+[[9.99396682e-01 9.99760211e-01 5.39051043e-03 9.97981012e-01]
+ [9.99126375e-01 9.99518275e-01 9.68481414e-04 1.06416049e-03]
+ [9.98984635e-01 9.99224186e-01 9.98950481e-01 2.25205836e-03]
+ ...
+ [9.98849273e-01 9.99579966e-01 7.02798658e-04 1.10243529e-03]
+ [9.89318592e-04 9.98694003e-01 9.99440372e-01 9.98675764e-01]
+ [9.98617291e-01 9.98613000e-01 9.99476016e-01 9.99169350e-01]]
+Y_predict [[1. 1. 0. 1.]
+ [1. 1. 0. 0.]
+ [1. 1. 1. 0.]
+ ...
+ [1. 1. 0. 0.]
+ [0. 1. 1. 1.]
+ [1. 1. 1. 1.]]
+acc:0.656
+end-electra-google/electra-base-discriminator
+True
+0
+<torch.cuda.device object at 0x7faa2a2b7910>
+1
+NVIDIA GeForce RTX 3060
+begin-electra-google/electra-small-discriminator
+electra google/electra-small-discriminator 15
+<class 'str'>
+                                                text        labels
+0  thing moved pretty fast initially time really ...  [1, 1, 0, 0]
+1  think likely true close take account irreducib...  [1, 1, 1, 1]
+2  personally feel everything explained science t...  [1, 1, 1, 1]
+3  addition depression currently deal ocd add agr...  [0, 1, 1, 1]
+4  private message notification icon continually ...  [1, 1, 0, 1]
+<class 'list'>
+electra
+google/electra-small-discriminator
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 665/665 [00:00<00:00, 337kB/s]
+Downloading: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 54.2M/54.2M [00:05<00:00, 10.7MB/s]
+Some weights of the model checkpoint at google/electra-small-discriminator were not used when initializing ElectraForMultiLabelSequenceClassification: ['discriminator_predictions.dense_prediction.bias', 'discriminator_predictions.dense.weight', 'discriminator_predictions.dense.bias', 'discriminator_predictions.dense_prediction.weight']
+- This IS expected if you are initializing ElectraForMultiLabelSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing ElectraForMultiLabelSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of ElectraForMultiLabelSequenceClassification were not initialized from the model checkpoint at google/electra-small-discriminator and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight', 'classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 232k/232k [00:00<00:00, 697kB/s]
+Downloading: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 29.0/29.0 [00:00<00:00, 14.4kB/s]
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 466k/466k [00:00<00:00, 815kB/s]
+Epochs 0/15. Running Loss:    0.7991: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:24<00:00, 17.99it/s]
+Epochs 1/15. Running Loss:    0.5413: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:24<00:00, 17.95it/s]
+Epochs 2/15. Running Loss:    0.0865: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:24<00:00, 18.01it/s]
+Epochs 3/15. Running Loss:    0.3976: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:24<00:00, 17.99it/s]
+Epochs 4/15. Running Loss:    0.2691: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:24<00:00, 18.00it/s]
+Epochs 5/15. Running Loss:    0.6515: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:23<00:00, 18.12it/s]
+Epochs 6/15. Running Loss:    0.6248: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:23<00:00, 18.10it/s]
+Epochs 7/15. Running Loss:    0.2441: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:23<00:00, 18.17it/s]
+Epochs 8/15. Running Loss:    0.7222: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:23<00:00, 18.13it/s]
+Epochs 9/15. Running Loss:    0.1333: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:22<00:00, 18.23it/s]
+Epochs 10/15. Running Loss:    0.0081: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:22<00:00, 18.28it/s]
+Epochs 11/15. Running Loss:    0.0085: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:22<00:00, 18.25it/s]
+Epochs 12/15. Running Loss:    0.0087: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:22<00:00, 18.26it/s]
+Epochs 13/15. Running Loss:    0.0039: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:21<00:00, 18.33it/s]
+Epochs 14/15. Running Loss:    0.0047: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 2600/2600 [02:21<00:00, 18.33it/s]
+Epoch 15 of 15: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [35:49<00:00, 143.31s/it]
+Running Evaluation: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 292/292 [00:03<00:00, 79.86it/s]
+model outputs
+[[0.99612051 0.9973374  0.00229088 0.99372226]
+ [0.99692386 0.99809879 0.00270762 0.992149  ]
+ [0.99330795 0.98907745 0.99694854 0.00318188]
+ ...
+ [0.0066598  0.99806088 0.00330533 0.00708162]
+ [0.01724964 0.99702042 0.99623483 0.98887396]
+ [0.99605983 0.99795878 0.99168408 0.99202794]]
+Y_predict [[1. 1. 0. 1.]
+ [1. 1. 0. 1.]
+ [1. 1. 1. 0.]
+ ...
+ [0. 1. 0. 0.]
+ [0. 1. 1. 1.]
+ [1. 1. 1. 1.]]
+acc:0.6742857142857143
+end-electra-google/electra-small-discriminator
+
+
