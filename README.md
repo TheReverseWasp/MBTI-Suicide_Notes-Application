@@ -103,6 +103,8 @@ cd Scripts
 ## First Research (Only MBTI)
 
 ```
+# 1st paper
+
 @inproceedings{vasquez2021transformer,
   title={Transformer-based Approaches for Personality Detection using the MBTI Model},
   author={V{\'a}squez, Ricardo Lazo and Ochoa-Luna, Jos{\'e}},
@@ -116,7 +118,15 @@ cd Scripts
 ## Second Research (MBTI + Suicide)
 
 ```
-#pending
+# Thesis
+@article{lazo2022clasificacion,
+  title={Clasificaci{\'o}n de la personalidad utilizando procesamiento de lenguaje natural y aprendizaje profundo para detectar patrones de notas de suicidio en redes sociales},
+  author={Lazo Vasquez, Ricardo Manuel},
+  year={2022},
+  publisher={Universidad Cat{\'o}lica San Pablo}
+} 
+
+# 2nd paper
 ```
 
 ## Janowsky et al. Work
